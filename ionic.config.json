@@ -1,0 +1,7 @@
+{
+  "name": "stekoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
