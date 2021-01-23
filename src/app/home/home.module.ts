@@ -1,3 +1,5 @@
+import { SlidesComponent } from './../slides/slides.component';
+import { FormZayavkaComponent } from './../form-zayavka/form-zayavka.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
@@ -14,6 +16,6 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, FormZayavkaComponent, SlidesComponent]
 })
-export class HomePageModule {}
+export class HomePageModule { }
